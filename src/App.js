@@ -17,15 +17,15 @@ data.forEach((item) => {
   );
 });
 
-export function App() {
-  return (
+class App extends React.Component {
+  render() {
     <div className="App">
       <div className="contenedor-principal">
         <h1>Estas son opiniones</h1>
         {opiniones}
       </div>
-    </div>
-  );
+    </div>;
+  }
 }
 
 export default App;
